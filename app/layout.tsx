@@ -1,6 +1,7 @@
 import Feed from "@/components/Feed";
 import Header from "@/components/Header";
 import Login from "@/components/Login";
+import RightSidebar from "@/components/RightSidebar";
 import Sidebar from "@/components/Sidebar";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -29,6 +30,7 @@ export default function RootLayout({
         <div className="flex justify-content bg-gray-200">
           <Sidebar />
           <Feed />
+          <RightSidebar />
         </div>
 
       </html>
